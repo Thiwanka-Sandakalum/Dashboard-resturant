@@ -1,0 +1,32 @@
+.mat-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+  margin-right: 16px;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+.active-link {
+  font-weight: bold;
+  background-color:black;
+  color:#C2185B;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+  .spacer{
+    display: none;
+  }
+}

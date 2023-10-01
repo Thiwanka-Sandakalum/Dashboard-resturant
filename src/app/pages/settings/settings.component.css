@@ -1,0 +1,27 @@
+/* settings.component.css */
+.form-container {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.mat-card {
+    width: 100%;
+    max-width: 400px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-field {
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.submit-button {
+    margin-top: 16px;
+    align-self: flex-end;
+}

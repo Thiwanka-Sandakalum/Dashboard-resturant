@@ -1,0 +1,29 @@
+/* not-found.component.css */
+.not-found-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .not-found-card {
+    max-width: 400px;
+    text-align: center;
+    padding: 24px;
+  }
+  
+  .not-found-icon {
+    font-size: 4rem;
+    color: #f44336; /* Red color for the error icon */
+  }
+  
+  .not-found-message {
+    font-size: 1.2rem;
+    margin-top: 12px;
+  }
+  
+  /* Style the "Go Back" button */
+  mat-card-content a {
+    text-decoration: none;
+  }
+  

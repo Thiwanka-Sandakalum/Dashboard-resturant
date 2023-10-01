@@ -1,0 +1,23 @@
+<!-- settings.component.html -->
+<div class="form-container">
+    <mat-card>
+        <mat-card-content>
+            <h2>Change Password</h2>
+            <form (ngSubmit)="changePassword()" class="form">
+                <mat-form-field class="form-field">
+                    <input matInput type="password" placeholder="Current Password" [(ngModel)]="currentPassword"
+                        name="currentPassword" required>
+                </mat-form-field>
+                <mat-form-field class="form-field">
+                    <input matInput type="password" placeholder="New Password" [(ngModel)]="newPassword"
+                        name="newPassword" required>
+                </mat-form-field>
+                <mat-form-field class="form-field">
+                    <input matInput type="password" placeholder="Confirm New Password" [(ngModel)]="confirmPassword"
+                        name="confirmPassword" required>
+                </mat-form-field>
+                <button type="submit" mat-raised-button color="primary" class="submit-button">Change Password</button>
+            </form>
+        </mat-card-content>
+    </mat-card>
+</div>

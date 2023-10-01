@@ -1,0 +1,60 @@
+/* Default styles for larger screens */
+.app-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-column {
+    flex-basis: 80%;
+    padding: 20px;
+}
+
+mat-card {
+    flex-basis: 20%;
+    height: 350px;
+    margin: 20px;
+    background-color: #C2185B;
+    text-align: center;
+    border-radius: 30px;
+    color: #FFFFFF;
+}
+
+.heading{
+    text-align: center;
+    color: #8d0b0b;
+}
+
+.paragraph{
+    text-align:end;
+    font-size: small;
+    margin-bottom: 0%;
+}
+  
+
+/* Styles for screens with a maximum width of 500px */
+@media (max-width: 500px) {
+    .app-container {
+        flex-direction: column;
+        /* Change to a vertical layout */
+        align-items: center;
+        /* Center align items */
+    }
+
+    .table-column {
+        flex-basis: 100%;
+        /* Take up full width */
+        padding: 10px;
+    }
+
+    mat-card {
+        flex-basis: 50%;
+        /* Take up full width */
+        margin: 10px 0;
+        /* Reduce margin for better spacing */
+    }
+
+    h2 {
+        margin-top: 20px;
+        /* Reduce top margin for better spacing */
+    }
+}
