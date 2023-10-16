@@ -32,7 +32,7 @@ jobs:
           action: "upload"
           app_location: "/"
           api_location: ""
-          output_location: "dist/dashboard"
+          output_location: "dist/dashbord-resturant"
 
       - name: List Files in dist/dashboard
         run: |
