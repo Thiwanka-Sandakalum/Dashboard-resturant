@@ -36,7 +36,7 @@ jobs:
 
       - name: List Files in dist/dashboard
         run: |
-          ls -R dist/dashboard
+          ls 
           # Add any other commands you need for post-build checks
           
   close_pull_request_job:
