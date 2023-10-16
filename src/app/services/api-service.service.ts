@@ -6,7 +6,7 @@ import { Observable, catchError, of } from 'rxjs';
   providedIn: 'root'
 })
 export class ApiServiceService {
-  private url = 'http://localhost:8080/api'
+  private url = 'http://resturant.azurewebsites.net/api'
 
     constructor(private http: HttpClient) { }
 
